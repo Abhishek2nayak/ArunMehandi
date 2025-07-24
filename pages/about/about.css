@@ -15,6 +15,11 @@
   --main-font: "Rubik", sans-serif;
 }
 
+#main {
+    scroll-behavior: smooth;
+
+}
+
 #about-main {
   color: white;
   width: calc(100% - 60px);
@@ -132,16 +137,7 @@
   line-height: 30px;
   color: var(--black);
 }
-.address a::before {
-  position: absolute;
-  content: "";
-  width: 200px;
-  height: 2px;
-  background-color: var(--prim-yellow);
 
-  left: 0;
-  bottom: -1px;
-}
 
 .group {
   display: flex;
@@ -332,6 +328,5 @@
   
 
 }
-
 
 

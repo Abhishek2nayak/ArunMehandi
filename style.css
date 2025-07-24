@@ -61,6 +61,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .page-heading .down {
   position: absolute;
@@ -180,14 +181,26 @@ body {
   gap: 10px;
 }
 .logo {
-  width: 40px;
+  
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-family: var(--casual-font);
+  color: #CBA25B ;
+  font-weight: 700;  
 }
 
-button.book-now {
+.logo img {
+  width: 40px;
+  height: 50px;
+  object-fit:contain;
+
+}
+
+a.book-now {
   padding: 8px 16px;
   font-size: 15px;
   border: none;
@@ -198,16 +211,16 @@ button.book-now {
   font-weight: 500;
   transition: 0.5s ease-in;
 }
-button.book-now:hover i {
+a.book-now:hover i {
   transition: 0.3s ease-in-out;
   transform: translateX(3px);
 }
-button.book-now:hover {
+a.book-now:hover {
   background-color: transparent;
   cursor: pointer;
   color: var(--white);
 }
-button.book-now i {
+a.book-now i {
   margin-left: 5px;
   vertical-align: middle;
 }
@@ -271,14 +284,20 @@ button.book-now i {
   transform: translate(-50%, -50%);
   z-index: 1;
   font-family: var(--casual-font);
+  text-align: center;
+  color:rgb(46, 82, 9);
+  text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.4);
+
 }
 
 .hero-container .links {
   position: absolute;
   left: 50%;
-  top: 50%;
+  bottom: 10%;
   transform: translate(-50%, -50%);
   padding-top: 10%;
+  z-index: 1000;
+
 }
 .links {
   display: flex;
@@ -287,6 +306,7 @@ button.book-now i {
 .links h3 {
   font-size: 1.7rem;
   font-weight: 500;
+
 }
 .links a {
   margin-left: 10px;
@@ -378,7 +398,11 @@ button.book-now i {
   height: 350px;
   /* background-color: red; */
 }
-
+.card-container:hover img {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 .card-container img {
   width: 100%;
   height: 83%;
@@ -435,9 +459,9 @@ button.book-now i {
 .achievments {
   left: 50%;
   transform: translate(-50%,0);
-  height: 500px;
+  height: 80vh;
   width: 98%;
-
+  background-color: green;
   position: relative;
 }
 
@@ -460,6 +484,7 @@ button.book-now i {
   flex-direction: column;
   gap: 10px;
   backdrop-filter: blur(10px);
+  text-align: center;
 }
 
 .achievments div h1 {
@@ -518,17 +543,17 @@ button.book-now i {
 
 .feed-card {
   width: 300px;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #d1d1d155;
+  background-color: var(--white-yellow);
   border-radius: 10px;
   backdrop-filter: blur(10px);
   gap: 20px;
   padding: 20px;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #dfc903;
   transition: 0.3s ease-in;
 }
 .feed-card img {
@@ -540,6 +565,17 @@ button.book-now i {
 }
 .feed-card p {
   text-align: center;
+  font-style: italic;
+  color: #826302;
+  font-size: 14px;
+}
+
+.feed-card p::before {
+  content: "“";
+}
+
+.feed-card p::after {
+  content: "”";
 }
 
 .feed-card:hover {
@@ -605,10 +641,9 @@ button.book-now i {
 }
 .footer a img {
   margin: 0 auto;
-  width: 350px;
+  /* width: 350px; */
   height: 200px;
-  padding: 50px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .footer .main-foot {
   display: flex;
@@ -757,6 +792,7 @@ button.book-now i {
    .achievments .right {
     width: 100%;
     padding:20px;
+    text-align: center;
    }
    .achievments .right h1 {
     font-size: 30px;
@@ -792,4 +828,17 @@ button.book-now i {
     font-size: 6vw;
   }
    /* footer section  */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }

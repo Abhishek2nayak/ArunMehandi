@@ -1,352 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehandi Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mehandi Website</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <body>
+    <div class="cursor"></div>
+    <div class="main">
+      <!-- landing page section  -->
+      <section id="landing-page">
+        <div class="nav-container">
+          <!-- top nav  -->
+          <div class="top-nav">
+            <ul class="top-left">
+              <li>+91 63970 12423</li>
 
-</head>
+              <div class="dot"></div>
+              <li>
+                <a href="mailto:arvindnayak974@gmail.com" style="color: white">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="logo">
+              <img src="./images/logo.png" alt="logo" />
+              Arun Mehandi Art
+            </div>
+            <button
+              class="hamburger"
+              style="
+                color: white;
+                border: none;
+                background-color: transparent;
+                font-size: 20px;
+              "
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
 
-<body>
-  <div class="cursor"></div>
-  <div class="main">
-    <!-- landing page section  -->
-    <section id="landing-page">
-      <div class="nav-container">
-        <!-- top nav  -->
-        <div class="top-nav">
-          <ul class="top-left">
-            <li>+98309434</li>
-            <div class="dot"></div>
-            <li>abc@gmail.com</li>
-          </ul>
+            <a
+              class="book-now"
+              style="color: white"
+              href="https://wa.me/1234567890"
+              target="_blank"
+            >
+              Book Slot<i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
 
-          <img
-            src="https://thumbs.dreamstime.com/b/mehndi-studio-logo-hand-drawn-traditional-indian-style-elements-henna-design-cards-prints-vector-illustration-80075676.jpg"
-            alt="logo" class="logo" />
-          <button class="hamburger"
-            style="color:white; border: none; background-color: transparent; font-size: 20px;"><i
-              class="fa-solid fa-bars"></i></button>
+          <!-- bottom nav  -->
 
-          <button class="book-now">
-            Book Slot<i class="fa-solid fa-arrow-right"></i>
-          </button>
+          <div class="bottom-nav">
+            <ul class="page-links">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <div class="dot dark"></div>
+              <li>
+                <a class="nav-link" href="pages/about/about.html">About</a>
+              </li>
+
+              <div class="dot dark"></div>
+              <li>
+                <a class="nav-link" href="pages/contact/contact.htm"
+                  >Contact us</a
+                >
+              </li>
+              <div class="dot dark"></div>
+              <li>
+                <a class="nav-link" href="pages/gallery/gallery.html"
+                  >Gallery</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <!-- bottom nav  -->
-
-        <div class="bottom-nav">
-
-          <ul class="page-links">
-            <li><a class="nav-link" href="index.html">home</a></li>
-            <div class="dot dark"></div>
-            <li><a class="nav-link" href="pages/about/about.html">about</a></li>
-            <div class="dot dark"></div>
-            <li><a class="nav-link" href="pages/our work/our-work.html">our work</a></li>
-            <div class="dot dark"></div>
-            <li><a class="nav-link" href="pages/contact/contact.htm">contact us</a></li>
-            <div class="dot dark"></div>
-            <li><a class="nav-link" href="pages/gallery/gallery.html">gallery</a></li>
-          </ul>
-          <div class="v-divider"></div>
-          <ul class="social-links">
-            <li>
-              <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <div class="dot dark"></div>
-            <li>
-              <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <div class="dot dark"></div>
-            <li>
-              <a class="nav-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </li>
-            <div class="dot dark"></div>
-            <li>
-              <a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-          </ul>
+        <div class="h-divider"></div>
+        <div class="hero-container">
+          <h1>Designs That Tell Stories</h1>
+          <div class="links">
+            <h3>See more</h3>
+            <a href="pages/gallery/gallery.html"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <img src="./images/bridal/bridal-1.jpg" alt="" id="img-1" />
+          <img src="./images/bridal/bridal-2.jpg" alt="" id="img-2" />
+          <img src="./images/bridal/bridal-3.jpg" alt="" id="img-3" />
         </div>
-      </div>
-      <div class="h-divider"></div>
-      <div class="hero-container">
-        <h1>Our Creations</h1>
-        <div class="links">
+      </section>
+
+      <!-- our services section  -->
+
+      <section id="services">
+        <h1 class="heading light center">Our Services</h1>
+        <p class="description light center">
+          From bridal to Arabic and baby shower designs, we create beautiful,
+          custom henna for your special day. Trusted by many, our skilled
+          artists make every event memorable with elegant, detailed work.
+        </p>
+
+        <div class="service-container">
+          <div
+            class="card-container"
+            onclick="location.href='pages/gallery/gallery.html'"
+          >
+            <img
+              src="https://i.pinimg.com/736x/05/ee/e6/05eee649404df31575340f8e71738ce0.jpg"
+              alt="arabic mehandi"
+            />
+            <div class="links light-links">
+              <h3 class="light">Arabic Mehandi</h3>
+            </div>
+          </div>
+          <div
+            class="card-container"
+            onclick="location.href='pages/gallery/gallery.html'"
+          >
+            <img src="./images/bridal/bridal-7.jpg" alt="bridal mehandi" />
+            <div class="links light-links">
+              <h3 class="light">Bride Mehandi</h3>
+            </div>
+          </div>
+          <div
+            class="card-container"
+            onclick="location.href='pages/gallery/gallery.html'"
+          >
+            <img
+              src="https://i.pinimg.com/736x/7f/b1/7a/7fb17a53012b059ac22f89a298b53927.jpg"
+              alt="portrait mehandi"
+            />
+            <div class="links light-links">
+              <h3 class="light">Portrait Mehandi</h3>
+            </div>
+          </div>
+          <div
+            class="card-container"
+            onclick="location.href='pages/gallery/gallery.html'"
+          >
+            <img
+              src="https://i.pinimg.com/736x/cb/82/11/cb821170bf2b0b9f18e31d0bb83ebbef.jpg"
+              alt="baby shower mehandi"
+            />
+            <div class="links light-links">
+              <h3 class="light">Figure Design</h3>
+            </div>
+          </div>
+
+          <div
+            class="card-container"
+            onclick="location.href='pages/gallery/gallery.html'"
+          >
+            <img
+              src="https://i.pinimg.com/736x/b0/85/4e/b0854ef48a799ecb522dc29d54c273f5.jpg"
+              alt="baby shower mehandi"
+            />
+            <div class="links light-links">
+              <h3 class="light">Baby shower</h3>
+            </div>
+          </div>
+
+          <div
+            class="card-container"
+            onclick="location.href='pages/gallery/gallery.html'"
+          >
+            <img
+              src="https://i.pinimg.com/736x/bf/d1/5e/bfd15e823bdba09e700887b434780acb.jpg"
+              alt="mandela design"
+            />
+            <div class="links light-links">
+              <h3 class="light">Mandela Design</h3>
+            </div>
+          </div>
+        </div>
+        <div class="links light-links center-link">
+          <h3 class="light">Find out more</h3>
+          <a href="pages/our work/our-work.html"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- our design section  -->
+
+      <section id="our-design">
+        <h1 class="heading center">Our Design</h1>
+        <p class="description center">
+          We create more than just beautiful Mehndi—we create trust. Every
+          design is crafted with care, skill, and professionalism to make your
+          day truly special. From elegant bridal patterns to festive
+          celebrations, our gallery reflects the joy and artistry behind every
+          moment we help create.
+        </p>
+
+        <div class="img-gallery">
+          <div class="img">
+            <img src="./images/mehandi/1.jpg" alt="" />
+          </div>
+          <div class="img">
+            <img src="./images/mehandi/2.jpg" alt="" />
+          </div>
+          <div class="img">
+            <img src="./images/mehandi/3.jpg" alt="" />
+          </div>
+          <div class="img">
+            <img src="./images/mehandi/4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="links center-link">
           <h3>Find out more</h3>
-          <a href="pages/gallery/gallery.html"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="./pages/gallery/gallery.html"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
+      </section>
+
+      <section class="achievments">
         <img
-          src="https://media.istockphoto.com/id/485954490/photo/human-hand-decorated-with-henna-tattoo-also-called-mehendi.webp?b=1&s=170667a&w=0&k=20&c=-5c4zr0uL4I8Nf2njgZX1kfmSBx4UAZkHW89yqAIQNk="
-          alt="" id="img-1" />
-        <img
-          src="https://images.unsplash.com/photo-1674884060571-96a46a9a7a72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVoYW5kaSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
-          alt="" id="img-2" />
-        <img
-          src="https://plus.unsplash.com/premium_photo-1670745084868-7b4f727cc934?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVoYW5kaSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
-          alt="" id="img-3" />
-      </div>
-    </section>
+          src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVubmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+          alt=""
+          class="left"
+        />
+        <!-- <div class="right">
+          <h1>Solutions for you.</h1>
+          <p>We have every type of designs that will satisfy our customers</p>
+          <h3 id="customer-count">600</h3>
+          <p>Satisfied Customers</p>
+        </div> -->
 
-    <!-- our services section  -->
+        <div class="right">
+          <h1>Elegant Mehndi Solutions Just for You</h1>
+          <p>
+            From traditional bridal mehndi to trendy contemporary patterns, we
+            offer a wide range of designs tailored to every occasion.
+          </p>
 
-    <section id="services">
-      <h1 class="heading light center">Our Services</h1>
-      <p class="description light center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quam, error
-        consequuntur id doloremque voluptas, natus magnam in non, repellat iure
-        sequi adipisci.
-      </p>
+          <ul>
+            <li>✓ 1500+ Happy Customers</li>
+            <li>✓ Bridal & Engagement Mehndi</li>
+            <li>✓ Intricate Arabic & Indo-Western Designs</li>
+            <li>✓ Natural Herbal Mehndi Used</li>
+            <li>✓ Home Service Available</li>
+            <li>✓ Professional Team with 10+ Years Experience</li>
+          </ul>
 
-      <div class="service-container">
-        <div class="card-container">
-          <img src="https://cdn2.fabbon.com/uploads/image/file/23176/Arabic-Mehndi-Design-for-backhand.jpg" alt="" />
-          <div class="links light-links">
-            <h3 class="light">Arabic Mehandi</h3>
+          <h3 id="customer-count">1500+</h3>
+          <p>Satisfied Customers & Growing</p>
+        </div>
+      </section>
 
+      <section class="contact">
+        <h1 class="heading center">Contact Us</h1>
+        <p class="description center">
+          Get in touch with Arun Mehandi Art – Professional Artists for
+          weddings, parties, and special occasions. Available 24/7 with 100%
+          colour guarantee.
+        </p>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>Address</h3>
+              <p class="center">
+                Shop No. FB-26, Fusion Home, Near Ryan School, Greater Noida
+              </p>
+            </div>
+
+            <div class="contact-card">
+              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+              <h3>Email</h3>
+              <p class="center">arvindnayak974@gmail.com</p>
+            </div>
+
+            <div class="contact-card">
+              <div class="icon"><i class="fa-solid fa-phone"></i></div>
+              <h3>Call Us</h3>
+              <p class="center">
+                <span>+91 63970 12423</span><br />
+                <span>+91 78170 16959</span>
+              </p>
+            </div>
+
+            <div class="contact-card">
+              <h3>Connect with Us</h3>
+              <p class="center">
+                Follow us on social media for updates, offers, and latest mehndi
+                designs.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a
+                    href="https://instagram.com/arun_mehandi_noida"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://facebook.com/arun_mehandiartist"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://wa.me/916397012423" target="_blank"
+                    ><i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
+
+          <!-- Google Map (You can update location if needed) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3731.665111!2d77.498712!3d28.474389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1689001297233!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-        <div class="card-container">
-          <img src="https://cdn2.fabbon.com/uploads/image/file/23176/Arabic-Mehndi-Design-for-backhand.jpg" alt="" />
-          <div class="links light-links">
-            <h3 class="light">Bride Mehandi</h3>
+      </section>
 
-          </div>
-        </div>
-        <div class="card-container">
-          <img src="https://cdn2.fabbon.com/uploads/image/file/23176/Arabic-Mehndi-Design-for-backhand.jpg" alt="" />
-          <div class="links light-links">
-            <h3 class="light">Portrait Mehandi</h3>
+      <section class="testmonials">
+        <h1 class="heading center">People love's our Art</h1>
 
-          </div>
-        </div>
-        <div class="card-container">
-          <img src="https://cdn2.fabbon.com/uploads/image/file/23176/Arabic-Mehndi-Design-for-backhand.jpg" alt="" />
-          <div class="links light-links">
-            <h3 class="light">Figure Design</h3>
-
-          </div>
-        </div>
-      </div>
-      <div class="links light-links center-link">
-        <h3 class="light">Find out more</h3>
-        <a href="pages/our work/our-work.html"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </section>
-
-    <!-- our design section  -->
-
-    <section id="our-design">
-      <h1 class="heading center">Our Design</h1>
-      <p class="description center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quam, error
-        consequuntur id doloremque voluptas, natus magnam in non, repellat iure
-        sequi adipisci.
-      </p>
-
-      <div class="img-gallery">
-        <div class="img">
-          <img src="https://cdn.pixabay.com/photo/2020/09/01/14/26/art-5535384_640.jpg" alt="" />
-        </div>
-        <div class="img">
-          <img src="https://cdn.pixabay.com/photo/2020/09/01/14/26/art-5535384_640.jpg" alt="" />
-        </div>
-        <div class="img">
-          <img src="https://cdn.pixabay.com/photo/2020/09/01/14/26/art-5535384_640.jpg" alt="" />
-        </div>
-        <div class="img">
-          <img src="https://cdn.pixabay.com/photo/2020/09/01/14/26/art-5535384_640.jpg" alt="" />
-        </div>
-      </div>
-      <div class="links center-link">
-        <h3>Find out more</h3>
-        <a href="./pages/gallery/gallery.html"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </section>
-
-    <section class="achievments">
-      <img
-        src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVubmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
-        alt="" class="left" />
-      <div class="right">
-        <h1>Solutions for you.</h1>
-        <p>We have every type of designs that will satisfy our customers</p>
-        <h3 id="customer-count">600</h3>
-        <p>Satisfied Customers</p>
-      </div>
-    </section>
-
-    <section class="contact">
-      <h1 class="heading center">Contact Us</h1>
-      <p class="description center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quam, error
-        consequuntur id doloremque voluptas, natus magnam in non, repellat iure
-        sequi adipisci.
-      </p>
-      <div class="contact-container">
-
-
-        <div class="contact-info">
-          <div class="contact-card">
-            <i class="fa-solid fa-location-dot"></i>
-            <h3>address</h3>
-            <p class="center">Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <div class="contact-card">
-            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-            <h3>email</h3>
-            <p class="center">Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <div class="contact-card">
-            <div class="icon"><i class="fa-solid fa-phone"></i></div>
-            <h3>call us</h3>
-            <p class="center">
-              <span>309483094</span> <br />
-              <span>23984732847</span>
+        <div class="testmonials-container">
+          <div class="feed-card">
+            <p class="feed">
+              I booked Arun Mehandi Art for my wedding and the designs were
+              absolutely stunning! The color came out so beautifully and lasted
+              for days. Highly recommended!
             </p>
+            <h3 class="cust-name">Sneha Sharma, Noida</h3>
           </div>
-          <div class="contact-card">
 
-            <h3>contact Us</h3>
-            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <ul class="social-links">
-              <li>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              </li>
+          <div class="feed-card">
+            <p class="feed">
+              Truly professional artists! They arrived on time for my sister’s
+              engagement and delivered exactly what we had in mind. Super happy
+              with their work!
+            </p>
+            <h3 class="cust-name">Aarti Mehra, Greater Noida</h3>
+          </div>
 
-              <li>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
+          <div class="feed-card">
+            <p class="feed">
+              Great experience! Their mehndi designs are very creative and
+              elegant. Also loved that they use herbal mehndi – no irritation at
+              all. Would book again!
+            </p>
+            <h3 class="cust-name">Priya Desai, Ghaziabad</h3>
+          </div>
 
-              <li>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-              </li>
-
-              <li>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              </li>
-            </ul>
-
+          <div class="feed-card">
+            <p class="feed">
+              Excellent service and beautiful designs. We called them for a
+              family function and everyone was impressed. Very polite and
+              professional team.
+            </p>
+            <h3 class="cust-name">Neha Kulkarni, Delhi</h3>
           </div>
         </div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7442.218716727208!2d72.88776522616723!3d21.14804580000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1689001297233!5m2!1sen!2sin"
-          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
+      </section>
 
-    <section class="testmonials">
-      <h1 class="heading center">Our Testmonials</h1>
-      <div class="testmonials-container">
-        <div class="feed-card">
-          <img src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="" />
-          <p class="feed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            sint quaerat fugit deleniti alias modi placeat repellendus quis
-            excepturi reiciendis. Maiores, quasi! Harum.
-          </p>
-          <h3 class="cust-name">Lina Rason</h3>
+      <section class="footer">
+        <a href="#">
+          <img
+            src="./images/full-logo.png"
+            alt="Arun Mehandi Art Logo"
+            class="footer-logo"
+          />
+        </a>
+
+        <div class="main-foot">
+          <ul>
+            <li>
+              <a href="mailto:arvindnayak974@gmail.com"
+                >arvindnayak974@gmail.com</a
+              >
+            </li>
+            <li><a href="tel:+916397012423">+91 63970 12423</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about/about.html">About</a></li>
+            <li><a href="pages/our work/our-work.html">Our Work</a></li>
+            <li><a href="pages/gallery/gallery.html">Gallery</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="pages/contact/contact.html">Contact</a></li>
+            <li><a href="#">Artist</a></li>
+            <li>
+              <ul class="social-links">
+                <li>
+                  <a
+                    href="https://facebook.com/arun_mehandiartist"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com/arun_mehandi_noida"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://wa.me/916397012423" target="_blank"
+                    ><i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div class="feed-card">
-          <img src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="" />
-          <p class="feed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            sint quaerat fugit deleniti alias modi placeat repellendus quis
-            excepturi reiciendis. Maiores, quasi! Harum.
-          </p>
-          <h3 class="cust-name">Lina Rason</h3>
-        </div>
-        <div class="feed-card">
-          <img src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="" />
-          <p class="feed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            sint quaerat fugit deleniti alias modi placeat repellendus quis
-            excepturi reiciendis. Maiores, quasi! Harum.
-          </p>
-          <h3 class="cust-name">Lina Rason</h3>
-        </div>
-        <div class="feed-card">
-          <img src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="" />
-          <p class="feed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            sint quaerat fugit deleniti alias modi placeat repellendus quis
-            excepturi reiciendis. Maiores, quasi! Harum.
-          </p>
-          <h3 class="cust-name">Lina Rason</h3>
-        </div>
-      </div>
-    </section>
 
-    <section class="footer">
-      <a href="">
-        <img src="images/mehandi-and-tattoo-low-resolution-logo-white-on-transparent-background.png" alt="">
-      </a>
+        <p
+          class="center light"
+          style="background-color: black; padding: 10px 0"
+        >
+          &copy; 2025 Arun Mehandi Art. All rights reserved.
+        </p>
+      </section>
+    </div>
 
-      <div class="main-foot">
-        <ul>
-          <li><a href="#">abc@gmail.com</a></li>
-          <li><a href="#">8998439824</a></li>
-        </ul>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="pages/about/about.html">About</a></li>
-          <li><a href="pages/our work/our-work.html">Our work</a></li>
-          <li><a href="pages/gallery/gallery.html">gallery</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">contact</a></li>
-          <li><a href="#">artitst</a></li>
-          <li>
-            <ul class="social-links">
-              <li>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              </li>
-
-              <li>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
-
-              <li>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-              </li>
-
-              <li>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              </li>
-            </ul>
-          </li>
-
-
-
-        </ul>
-      </div>
-  
-  <p class="center light" style="background-color:black ; padding: 10px 0 ;">@copyright</p>
-  </section>
-  </div>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
-    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="module" src="animation.js"></script>
-  <script type="module" src="utils.js"></script>
-  <script type="module" src="script.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="animation.js"></script>
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
 </html>

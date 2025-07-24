@@ -1,10 +1,10 @@
-import {cursorMove,Menu,init } from "../../utils.js"
+import {cursorMove,Menu } from "../../utils.js"
 
 const cursor = document.querySelector('.cursor')
 const main = document.querySelector('.main')
 const hamburger = document.querySelector('.hamburger')
 const bottomNav = document.querySelector('.bottom-nav')
-init()
+// init()
 
 cursorMove(main,cursor)
 

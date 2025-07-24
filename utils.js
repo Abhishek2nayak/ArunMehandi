@@ -1,10 +1,16 @@
 
 //fuction to intialise locomative js
-
+let locoScroll;
 export function init() {
   gsap.registerPlugin(ScrollTrigger);
 
-  const locoScroll = new LocomotiveScroll({
+   if (locoScroll) {
+    locoScroll.destroy();
+    ScrollTrigger.killAll(); // kill all old triggers
+  }
+
+
+   locoScroll = new LocomotiveScroll({
     el: document.querySelector(".main"),
     smooth: true,
   });
