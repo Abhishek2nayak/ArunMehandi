@@ -160,6 +160,10 @@
 }
 
 
+.our-team p {
+  padding: 10px 50px;
+}
+
 .team-card .img {
   width: 300px;
   height: 400px;

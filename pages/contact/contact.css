@@ -122,7 +122,7 @@ iframe {
   .contact-us .contact-left {
     width: 100vw;
     flex-direction: row;
-    padding: 0 70px;
+    /* padding: 0 70px; */
     align-items: center;
   }
   .contact-us .contact-left .left-top {

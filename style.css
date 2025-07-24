@@ -409,7 +409,6 @@ a.book-now i {
   object-fit: cover;
   border-radius: 10px;
 
-  background-color: green;
 }
 .card-container .links {
   display: flex;
@@ -461,7 +460,6 @@ a.book-now i {
   transform: translate(-50%,0);
   height: 80vh;
   width: 98%;
-  background-color: green;
   position: relative;
 }
 
@@ -737,6 +735,8 @@ a.book-now i {
   height: 100vh;
   top:-90px;
    }
+
+  
    .hero-container img {
     display: none;
    }
@@ -750,19 +750,27 @@ a.book-now i {
    }
 
 
-
+   .page-heading {
+      height:50vh;
+      position: relative;
+      
+   }  
    .page-heading h1 {
      width: 100%;
+     font-size: 3rem;
      text-align: center;
+
    }
    #landing-page .hero-container  h1 {
     transform: translate(0,0);
-    top:80vh;
+    bottom:0vh;
     left: 0;
     font-size: 8vw;
+    font-weight: 700;
     text-align: center;
-    
     width: 100vw;
+    display: flex;
+    align-items: center;
    }
    .hero-container .links   {
       transform: none;
