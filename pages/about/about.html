@@ -13,62 +13,76 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="about.css" />
-   
   </head>
 
   <body>
     <!-- landing page section  -->
-    <div class="cursor"></div>
-    <div id="main" class="about-main-container" data-scroll-container>
-      <div class="nav-container">
-        <!-- top nav  -->
-        <div class="top-nav">
-          <ul class="top-left">
-            <li>+91 63970 12423</li>
+    <button
+      class="b-button"
+      onclick="window.location.href='https://wa.me/916397012423'"
+    >
+      <p class="button__text">
+        <span style="--index: 0">B</span>
+        <span style="--index: 1">O</span>
+        <span style="--index: 2">O</span>
+        <span style="--index: 3">K</span>
+        <span style="--index: 4"></span>
+        <span style="--index: 5">N</span>
+        <span style="--index: 6">O</span>
+        <span style="--index: 7">W</span>
+        <span style="--index: 8"></span>
+        <span style="--index: 9"> B</span>
+        <span style="--index: 10">O</span>
+        <span style="--index: 11">O</span>
+        <span style="--index: 12">K</span>
+        <span style="--index: 13"></span>
+        <span style="--index: 14">N</span>
+        <span style="--index: 15">O</span>
+        <span style="--index: 16">W</span>
+        <span style="--index: 17"></span>
+      </p>
 
-            <div class="dot"></div>
-            <li>
-              <a href="mailto:arvindnayak974@gmail.com" style="color: white">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
-            </li>
-          </ul>
+      <div class="button__circle">
+        <svg
+          width="14"
+          class="button__icon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 15"
+        >
+          <path
+            fill="currentColor"
+            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+          ></path>
+        </svg>
+
+        <svg
+          class="button__icon button__icon--copy"
+          xmlns="http://www.w3.org/2000/svg"
+          width="14"
+          fill="none"
+          viewBox="0 0 14 15"
+        >
+          <path
+            fill="currentColor"
+            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+          ></path>
+        </svg>
+      </div>
+    </button>
+    <div id="main" class="about-main-container">
+      <div class="nav-container">
+        <div class="bottom-nav">
           <div class="logo">
             <img src="../../images/logo.png" alt="logo" />
             Arun Mehandi Art
           </div>
-          <button
-            class="hamburger"
-            style="
-              color: white;
-              border: none;
-              background-color: transparent;
-              font-size: 20px;
-            "
-          >
-            <i class="fa-solid fa-bars"></i>
-          </button>
-
-          <a
-            class="book-now"
-            style="color: white"
-            href="https://wa.me/1234567890"
-            target="_blank"
-          >
-            Book Slot<i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-
-        <!-- bottom nav  -->
-
-        <div class="bottom-nav">
           <ul class="page-links">
             <li><a class="nav-link" href="../../index.html">Home</a></li>
             <div class="dot dark"></div>
             <li>
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
-
             <div class="dot dark"></div>
             <li>
               <a class="nav-link" href="../contact/contact.htm">Contact us</a>
@@ -78,243 +92,300 @@
               <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
             </li>
           </ul>
+
+          <label for="check" class="hamburger">
+            <input type="checkbox" id="check" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
+
+        <nav class="main-nav" id="main-nav">
+          <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="../contact/contact.htm">Contact us</a></li>
+            <li><a href="../gallery/gallery.html">Gallery</a></li>
+          </ul>
+        </nav>
       </div>
+
       <div class="h-divider"></div>
 
-      <!-- page heading  -->
-      <section class="page-heading" >
-        <h1 >About Us</h1>
-        <a class="down" href="#about-main">
-          <i class="fa-solid fa-angle-down"></i>
-        </a>
-      </section>
+      <div class="main-wrapper">
+        <!-- page heading  -->
+        <section class="page-heading">
+          <div class="heading-container">
+            <h1 class="heading">About Us</h1>
+            <p>
+              Our talented Mehndi artists bring years of experience in
+              traditional and contemporary bridal henna designs. Each member of
+              our team is passionate about the art of Mehndi and is dedicated to
+              delivering beautiful, intricate patterns that make your special
+              occasions even more memorable.
+            </p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1716672042560-c59ebb0805e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGhlbm5hfGVufDB8fDB8fHww"
+            alt=""
+          />
+        </section>
+        <section class="about-section">
+          <div class="container">
+            <div class="row">
+              <!-- Content Column -->
+              <div class="content-column">
+                <div class="inner-column">
+                  <div class="sec-title">
+                    <span class="title">About Arun Mehandi Art</span>
+                    <h2>Celebrating Tradition with Creativity Since 2015</h2>
+                  </div>
+
+                  <div class="text">
+                    At <strong>Arun Mehandi Art</strong>, we specialize in
+                    professional Mehndi and henna designs for every special
+                    occasion — Bridal Mehndi, Arabic Mehndi, Baby Showers,
+                    Engagements, Eid, and more. Our skilled artists bring years
+                    of experience and a deep passion for creativity, ensuring
+                    every design is intricate, long-lasting, and tailored to
+                    your unique style.
+                  </div>
+
+                  <div class="text">
+                    Mehndi is more than just decoration — it’s a tradition, a
+                    blessing, and a form of self-expression. That’s why we work
+                    closely with our clients to create personalized designs that
+                    reflect their personality, cultural heritage, and the joy of
+                    their celebration.
+                  </div>
+
+                  <div class="text">
+                    From delicate patterns for intimate gatherings to elaborate
+                    bridal masterpieces, we pride ourselves on being a trusted
+                    name in henna artistry. Whether it’s your wedding day or a
+                    festive celebration, we make your moment truly unforgettable
+                    with our handcrafted designs.
+                  </div>
+
+                  <div class="btn-box">
+                    <a
+                      href="https://wa.me/6397012423"
+                      target="_blank"
+                      class="theme-btn btn-style-one"
+                      >Book Your Mehndi Session</a
+                    >
+                  </div>
+
+                  <h3 style="margin-top: 25px">Connect with Me</h3>
+                  <ul class="connect-links">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/arun_mehandiartist"
+                        target="_blank"
+                        aria-label="Facebook"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/arun_mehandi_noida"
+                        target="_blank"
+                        aria-label="Instagram"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://wa.me/6397012423"
+                        target="_blank"
+                        aria-label="WhatsApp"
+                        ><i class="fa-brands fa-whatsapp"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Image Column -->
+              <div class="image-column">
+                <div class="inner-column">
+                  <div class="author-desc">
+                    <h2>Arun Nayak</h2>
+                    <span>Mehndi Artist</span>
+                  </div>
+                  <figure class="image-1">
+                    <img
+                      src="../../images/image-3.jpg"
+                      alt="Arun Nayak Mehndi Artist"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- Why Choose Us -->
+            <div class="sec-title" style="margin-top: 50px">
+              <span class="title">Why Choose Us</span>
+              <h2>Your Comfort, Our Priority</h2>
+            </div>
+            <ul class="features-list">
+              <li>
+                <span class="highlight">Flexible Timing</span> — We work around
+                your schedule to make your special moments stress-free.
+              </li>
+              <li>
+                <span class="highlight">Home Service Available</span> — Enjoy
+                the comfort of getting your Mehndi done at your own place.
+              </li>
+              <li>
+                <span class="highlight">100% Natural & Guaranteed Color</span> —
+                We use only safe, chemical-free henna for a rich and lasting
+                stain.
+              </li>
+            </ul>
+
+            <!-- Vision Section -->
+            <div class="sec-title" style="margin-top: 50px">
+              <span class="title">Our Vision</span>
+              <h2>Spreading Art, One Hand at a Time</h2>
+            </div>
+            <div class="text">
+              Our goal is to keep Mehndi art alive while blending it with modern
+              design trends. We aim to be your go-to choice for stunning, custom
+              henna designs that make every occasion beautiful and memorable.
+            </div>
+            <div class="text">
+              We continue to innovate and expand our services so our clients get
+              the perfect mix of tradition, beauty, and creativity — at prices
+              that make this art accessible to everyone.
+            </div>
+          </div>
+          <div id="counter">
+            <div class="item">
+              <h1 class="count" data-number="10000"></h1>
+              <h3 class="text">Happy Customers</h3>
+            </div>
+            <div class="item">
+              <h1 class="count" data-number="100"></h1>
+              <h3 class="text">Mehndi Designs</h3>
+            </div>
+            <div class="item">
+              <h1 class="count" data-number="15"></h1>
+              <h3 class="text">Years Experience</h3>
+            </div>
+          </div>
+        </section>
+
+        <section class="our-team">
+          <h1 class="heading center">Meet Our Team</h1>
+          <p class="center">
+            Our talented Mehndi artists bring years of experience in traditional
+            and contemporary bridal henna designs. Each member of our team is
+            passionate about the art of Mehndi and is dedicated to delivering
+            beautiful, intricate patterns that make your special occasions even
+            more memorable.
+          </p>
+
+          <div class="team-container">
+            <div class="team-card">
+              <div class="img">
+                <img src="../../images/team-1.jpg" alt="Mehandi Artist" />
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="img">
+                <img src="../../images/team-3.jpg" alt="Mehandi Artist" />
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="img">
+                <img src="../../images/image-2.jpg" alt="Mehandi Artist" />
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="img">
+                <img
+                  src="../../images/Screenshot_20250723_220519_Instagram.jpg"
+                  alt="Mehandi Artist"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer">
+          <a href="#">
+            <img
+              src="../../images/full-logo.png"
+              alt="Arun Mehandi Art Logo"
+              class="footer-logo"
+            />
+          </a>
+
+          <div class="main-foot">
+            <ul>
+              <li>
+                <a href="mailto:arvindnayak974@gmail.com"
+                  >arvindnayak974@gmail.com</a
+                >
+              </li>
+              <li><a href="tel:+916397012423">+91 63970 12423</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="../our work/our-work.html">Our Work</a></li>
+              <li><a href="../gallery/gallery.html">Gallery</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="../contact/contact.htm">Contact</a></li>
+              <li><a href="#">Artist</a></li>
+              <li>
+                <ul class="social-links">
+                  <li>
+                    <a
+                      href="https://facebook.com/arun_mehandiartist"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://instagram.com/arun_mehandi_noida"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/916397012423" target="_blank"
+                      ><i class="fa-brands fa-whatsapp"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <p
+            class="center light copyright"
+            style="background-color: black; padding: 10px 0"
+          >
+            &copy; 2025 Arun Mehandi Art. All rights reserved.
+          </p>
+        </section>
+      </div>
 
       <!-- About main section  -->
 
-      <section id="about-main" >
-        <div class="img">
-          <img src="../../images/image-3.jpg" alt="" />
-          <div class="name" >
-            <h3>Arun Nayak</h3>
-          </div>
-        </div>
-        <div class="about-info">
-          <h3 >Who are we ?</h3>
-          <p >
-            At Arun Mehandi art , we specialize in professional Mehndi and henna
-            design services for every special occasion—Bridal Mehndi, Arabic
-            Mehndi, Baby Showers, Engagements, Eid, and more. With years of
-            experience and a passion for creativity, our skilled artists deliver
-            intricate, long-lasting designs that reflect both tradition and
-            style.
-            <br />
-            We’re proud to be a trusted name in custom henna artistry, known for
-            making every client feel confident and celebrated. Whether it’s your
-            wedding day or a joyful gathering, we’re here to make your moment
-            memorable with our unique, handcrafted Mehndi designs.
-          </p>
-          <h3 >Connect with me.</h3>
-          <ul class="connect-links" >
-            <a
-              href="https://www.facebook.com/arun_mehandiartist"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/arun_mehandi_noida"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a
-              href="https://wa.me/6397012423"
-              target="_blank"
-              aria-label="WhatsApp"
-            >
-              <i class="fa-brands fa-whatsapp"></i>
-            </a>
-          </ul>
-        </div>
-      </section>
-
-      <section class="about-second">
-        <div
-        
-        >
-          <p class="small-heading">Address</p>
-          <div class="address">
-            <a
-              href="https://maps.google.com/?q=Fusion+Home,+Near+Ryan+School,+Greater+Noida"
-              target="_blank"
-            >
-              Shop No. FB-26, Fusion Home, Near Ryan School, Greater Noida
-            </a>
-            <a href="tel:+916397012423">+91 63970 12423</a>
-            <a href="tel:+917817016959">+91 78170 16959</a>
-            <a href="mailto:arvindnayak974@gmail.com"
-              >arvindnayak974@gmail.com</a
-            >
-          </div>
-        </div>
-        <div
-      
-        >
-          <p class="small-heading">Achievements</p>
-          <div class="group">
-            <h1>1000+</h1>
-            <p>Happy Clients</p>
-          </div>
-          <div class="h-divider"></div>
-          <div class="group">
-            <h1>15+</h1>
-            <p>Design Categories</p>
-          </div>
-        </div>
-      </section>
-
       <!-- team section  -->
-
-      <section class="our-team" >
-        <h1 class="heading center">Meet Our Team</h1>
-        <p class="center">
-          Our talented Mehndi artists bring years of experience in traditional
-          and contemporary bridal henna designs. Each member of our team is
-          passionate about the art of Mehndi and is dedicated to delivering
-          beautiful, intricate patterns that make your special occasions even
-          more memorable.
-        </p>
-
-        <div class="team-container" >
-          <div
-            class="team-card"
-          
-          >
-            <div class="img">
-              <img src="../../images/team-1.jpg" alt="Mehandi Artist" />
-              <!-- <div class="name">
-                <h3>Harry Scott</h3>
-              </div> -->
-            </div>
-            <!-- <ul class="connect-links">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            </ul> -->
-          </div>
-          <div class="team-card">
-            <div class="img">
-              <img src="../../images/team-3.jpg" alt="Mehandi Artist" />
-              <!-- <div class="name">
-                <h3>Harry Scott</h3>
-              </div> -->
-            </div>
-            <!-- <ul class="connect-links">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            </ul> -->
-          </div>
-          <div class="team-card">
-            <div class="img">
-              <img src="../../images/image-2.jpg" alt="Mehandi Artist" />
-              <!-- <div class="name">
-                <h3>Harry Scott</h3>
-              </div> -->
-            </div>
-            <!-- <ul class="connect-links">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            </ul> -->
-          </div>
-          <div class="team-card">
-            <div class="img">
-              <img
-                src="../../images/Screenshot_20250723_220519_Instagram.jpg"
-                alt="Mehandi Artist"
-              />
-              <!-- <div class="name">
-                <h3>Harry Scott</h3>
-              </div> -->
-            </div>
-            <!-- <ul class="connect-links">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            </ul> -->
-          </div>
-        </div>
-      </section>
-
-      <section class="footer">
-        <a href="#">
-          <img
-            src="../../images/full-logo.png"
-            alt="Arun Mehandi Art Logo"
-            class="footer-logo"
-          />
-        </a>
-
-        <div class="main-foot">
-          <ul>
-            <li>
-              <a href="mailto:arvindnayak974@gmail.com"
-                >arvindnayak974@gmail.com</a
-              >
-            </li>
-            <li><a href="tel:+916397012423">+91 63970 12423</a></li>
-          </ul>
-
-          <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="../gallery/gallery.html">Gallery</a></li>
-            <li><a href="../contact/contact.htm">Contact</a></li>
-          </ul>
-
-          <ul>
-            <li>
-              <ul class="social-links">
-                <li>
-                  <a
-                    href="https://facebook.com/arun_mehandiartist"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://instagram.com/arun_mehandi_noida"
-                    target="_blank"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://wa.me/916397012423" target="_blank"
-                    ><i class="fa-brands fa-whatsapp"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank"
-                    ><i class="fa-brands fa-youtube"></i
-                  ></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <p
-          class="center light"
-          style="background-color: black; padding: 10px 0"
-        >
-          &copy; 2025 Arun Mehandi Art. All rights reserved.
-        </p>
-      </section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
@@ -332,6 +403,6 @@
     ></script>
 
     <script type="module" src="about.js"></script>
-   
+    <script src="../../script.js"></script>
   </body>
 </html>

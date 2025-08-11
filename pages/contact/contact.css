@@ -135,4 +135,133 @@ iframe {
   .contact-us .contact-right {
     width: 90vw;
   }
+
+  .contact-us .contact-left .left-top .c-wrapper {
+    margin-left: 30px;
+  }
+}
+
+.small {
+  font-size: 14px;
+  font-style: italic;
+  color: #3c3a3a;
+}
+
+.ccontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+.ccard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  min-width: 80vw;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Title */
+.ccontact-title {
+  color: #000;
+  text-transform: uppercase;
+  font-family: var(--light-font);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+/* Input Boxes */
+.cinputBox {
+  position: relative;
+  width: 100%;
+}
+
+.cinputBox input,
+.cinputBox textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+  resize: none;
+}
+
+.cinputBox span {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+
+.cinputBox input:valid ~ span,
+.cinputBox input:focus ~ span,
+.cinputBox textarea:valid ~ span,
+.cinputBox textarea:focus ~ span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.cinputBox input:valid,
+.cinputBox input:focus,
+.cinputBox textarea:valid,
+.cinputBox textarea:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+/* Button */
+.csend-btn {
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.csend-btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.contact-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }

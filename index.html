@@ -19,52 +19,70 @@
   </head>
 
   <body>
-    <div class="cursor"></div>
     <div class="main">
+      <!-- From Uiverse.io by Giannasaurus -->
+      <button
+        class="b-button"
+        onclick="window.location.href='https://wa.me/916397012423'"
+      >
+        <p class="button__text">
+          <span style="--index: 0">B</span>
+          <span style="--index: 1">O</span>
+          <span style="--index: 2">O</span>
+          <span style="--index: 3">K</span>
+          <span style="--index: 4"></span>
+          <span style="--index: 5">N</span>
+          <span style="--index: 6">O</span>
+          <span style="--index: 7">W</span>
+          <span style="--index: 8"></span>
+          <span style="--index: 9">B</span>
+          <span style="--index: 10">O</span>
+          <span style="--index: 11">O</span>
+          <span style="--index: 12">K</span>
+          <span style="--index: 13"></span>
+          <span style="--index: 14">N</span>
+          <span style="--index: 15">O</span>
+          <span style="--index: 16">W</span>
+          <span style="--index: 17"></span>
+        </p>
+
+        <div class="button__circle">
+          <svg
+            width="14"
+            class="button__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 15"
+          >
+            <path
+              fill="currentColor"
+              d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+            ></path>
+          </svg>
+
+          <svg
+            class="button__icon button__icon--copy"
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            fill="none"
+            viewBox="0 0 14 15"
+          >
+            <path
+              fill="currentColor"
+              d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+            ></path>
+          </svg>
+        </div>
+      </button>
+
       <!-- landing page section  -->
       <section id="landing-page">
         <div class="nav-container">
-          <!-- top nav  -->
-          <div class="top-nav">
-            <ul class="top-left">
-              <li>+91 63970 12423</li>
-
-              <div class="dot"></div>
-              <li>
-                <a href="mailto:arvindnayak974@gmail.com" style="color: white">
-                  <i class="fa-solid fa-envelope"></i>
-                </a>
-              </li>
-            </ul>
+          <div class="bottom-nav">
             <div class="logo">
               <img src="./images/logo.png" alt="logo" />
               Arun Mehandi Art
             </div>
-            <button
-              class="hamburger"
-              style="
-                color: white;
-                border: none;
-                background-color: transparent;
-                font-size: 20px;
-              "
-            >
-              <i class="fa-solid fa-bars"></i>
-            </button>
-
-            <a
-              class="book-now"
-              style="color: white"
-              href="https://wa.me/1234567890"
-              target="_blank"
-            >
-              Book Slot<i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
-
-          <!-- bottom nav  -->
-
-          <div class="bottom-nav">
             <ul class="page-links">
               <li><a class="nav-link" href="index.html">Home</a></li>
               <div class="dot dark"></div>
@@ -85,116 +103,206 @@
                 >
               </li>
             </ul>
+
+            <label for="check" class="hamburger">
+              <input type="checkbox" id="check" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
           </div>
+
+          <nav class="main-nav" id="main-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/about/about.html">About</a></li>
+              <li><a href="pages/contact/contact.htm">Contact us</a></li>
+              <li><a href="pages/gallery/gallery.html">Gallery</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="h-divider"></div>
+        <!-- <div class="h-divider"></div> -->
         <div class="hero-container">
-          <h1>Designs That Tell Stories</h1>
-          <div class="links">
-            <h3>See more</h3>
-            <a href="pages/gallery/gallery.html"
-              ><i class="fa-solid fa-arrow-right"></i
-            ></a>
+          <!-- <img src="https://i.pinimg.com/736x/2f/ee/43/2fee43b19621d8a20fe81162718f9554.jpg" alt="" id="img-1" /> -->
+
+          <div class="card-box">
+            <h1>Designs That Tell Stories</h1>
+            <p>
+              askdalsdjlasdjlajsdl aksdlajdsljasdl lajsdljasldjalsdjlaskjdlaskjd
+              alsjdlasdj Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Fugit ratione nisi optio aut perspiciatis. Harum in dolorum
+              doloribus quos? Aperiam, dolores praesentium ex et non repellat
+              magni aliquam! Ratione, ducimus.
+            </p>
+            <div class="btn-links">
+              <button onclick="window.location.href='tel:+916397012423'">
+                Call Now
+              </button>
+
+              <button
+                onclick="window.location.href='https://wa.me/916397012423'"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                Whatsapp Us
+              </button>
+            </div>
           </div>
-          <img src="./images/bridal/bridal-1.jpg" alt="" id="img-1" />
-          <img src="./images/bridal/bridal-2.jpg" alt="" id="img-2" />
-          <img src="./images/bridal/bridal-3.jpg" alt="" id="img-3" />
+
+          <div id="img-1">
+            <video
+              src="https://cdn.pixabay.com/video/2020/05/20/39546-423320266_large.mp4"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
         </div>
       </section>
 
-      <!-- our services section  -->
-
       <section id="services">
-        <h1 class="heading light center">Our Services</h1>
+        <h1 class="heading light center">Our Mehndi Services</h1>
         <p class="description light center">
-          From bridal to Arabic and baby shower designs, we create beautiful,
-          custom henna for your special day. Trusted by many, our skilled
-          artists make every event memorable with elegant, detailed work.
+          Expert mehndi artists offering <strong>bridal mehndi</strong>,
+          <strong>Arabic mehndi</strong>, <strong>portrait mehndi</strong>,
+          <strong>figure designs</strong>, <strong>baby shower mehndi</strong>,
+          and <strong>mandala designs</strong>. We create elegant, long-lasting
+          henna art with intricate details for weddings, parties, and special
+          occasions.
         </p>
 
         <div class="service-container">
+          <!-- Arabic Mehndi -->
           <div
-            class="card-container"
-            onclick="location.href='pages/gallery/gallery.html'"
+            class="service-card"
+            onclick="location.href='pages/gallery/gallery.html?type=arabic'"
           >
             <img
               src="https://i.pinimg.com/736x/05/ee/e6/05eee649404df31575340f8e71738ce0.jpg"
-              alt="arabic mehandi"
+              alt="Arabic Mehndi Design - Elegant floral henna pattern"
             />
-            <div class="links light-links">
-              <h3 class="light">Arabic Mehandi</h3>
+            <div class="service-card-content">
+              <h2>Arabic Mehndi</h2>
+              <p>
+                Graceful Arabic mehndi with floral and vine patterns, perfect
+                for Eid, weddings, and parties.
+              </p>
+              <a href="pages/gallery/gallery.html?type=arabic" class="button">
+                Find out more
+              </a>
             </div>
           </div>
+
+          <!-- Bridal Mehndi -->
           <div
-            class="card-container"
-            onclick="location.href='pages/gallery/gallery.html'"
+            class="service-card"
+            onclick="location.href='pages/gallery/gallery.html?type=bridal'"
           >
-            <img src="./images/bridal/bridal-7.jpg" alt="bridal mehandi" />
-            <div class="links light-links">
-              <h3 class="light">Bride Mehandi</h3>
+            <img
+              src="./images/bridal/bridal-7.jpg"
+              alt="Bridal Mehndi Design - Full hand intricate henna art"
+            />
+            <div class="service-card-content">
+              <h2>Bridal Mehndi</h2>
+              <p>
+                Luxurious bridal mehndi with intricate detailing, symbolizing
+                love and blessings for your big day.
+              </p>
+              <a href="pages/gallery/gallery.html?type=bridal" class="button">
+                Find out more
+              </a>
             </div>
           </div>
+
+          <!-- Portrait Mehndi -->
           <div
-            class="card-container"
-            onclick="location.href='pages/gallery/gallery.html'"
+            class="service-card"
+            onclick="location.href='pages/gallery/gallery.html?type=portrait'"
           >
             <img
               src="https://i.pinimg.com/736x/7f/b1/7a/7fb17a53012b059ac22f89a298b53927.jpg"
-              alt="portrait mehandi"
+              alt="Portrait Mehndi - Custom face and figure henna art"
             />
-            <div class="links light-links">
-              <h3 class="light">Portrait Mehandi</h3>
+            <div class="service-card-content">
+              <h2>Portrait Mehndi</h2>
+              <p>
+                Custom portrait mehndi capturing faces, figures, and memories in
+                beautiful henna designs.
+              </p>
+              <a href="pages/gallery/gallery.html?type=portrait" class="button">
+                Find out more
+              </a>
             </div>
           </div>
+
+          <!-- Figure Design -->
           <div
-            class="card-container"
-            onclick="location.href='pages/gallery/gallery.html'"
+            class="service-card"
+            onclick="location.href='pages/gallery/gallery.html?type=figure'"
           >
             <img
               src="https://i.pinimg.com/736x/cb/82/11/cb821170bf2b0b9f18e31d0bb83ebbef.jpg"
-              alt="baby shower mehandi"
+              alt="Figure Mehndi Design - Artistic henna figure illustration"
             />
-            <div class="links light-links">
-              <h3 class="light">Figure Design</h3>
+            <div class="service-card-content">
+              <h2>Figure Design</h2>
+              <p>
+                Creative figure-based mehndi art for storytelling, celebrations,
+                and cultural events.
+              </p>
+              <a href="pages/gallery/gallery.html?type=figure" class="button">
+                Find out more
+              </a>
             </div>
           </div>
 
+          <!-- Baby Shower Mehndi -->
           <div
-            class="card-container"
-            onclick="location.href='pages/gallery/gallery.html'"
+            class="service-card"
+            onclick="location.href='pages/gallery/gallery.html?type=babyshower'"
           >
             <img
               src="https://i.pinimg.com/736x/b0/85/4e/b0854ef48a799ecb522dc29d54c273f5.jpg"
-              alt="baby shower mehandi"
+              alt="Baby Shower Mehndi - Cute henna art for moms-to-be"
             />
-            <div class="links light-links">
-              <h3 class="light">Baby shower</h3>
+            <div class="service-card-content">
+              <h2>Baby Shower</h2>
+              <p>
+                Adorable mehndi designs for expecting mothers, adding joy and
+                blessings to baby showers.
+              </p>
+              <a
+                href="pages/gallery/gallery.html?type=babyshower"
+                class="button"
+              >
+                Find out more
+              </a>
             </div>
           </div>
 
+          <!-- Mandala Mehndi -->
           <div
-            class="card-container"
-            onclick="location.href='pages/gallery/gallery.html'"
+            class="service-card"
+            onclick="location.href='pages/gallery/gallery.html?type=mandala'"
           >
             <img
               src="https://i.pinimg.com/736x/bf/d1/5e/bfd15e823bdba09e700887b434780acb.jpg"
-              alt="mandela design"
+              alt="Mandala Mehndi Design - Circular spiritual henna art"
             />
-            <div class="links light-links">
-              <h3 class="light">Mandela Design</h3>
+            <div class="service-card-content">
+              <h2>Mandala Design</h2>
+              <p>
+                Beautiful circular mandala mehndi for spiritual, artistic, and
+                festive occasions.
+              </p>
+              <a href="pages/gallery/gallery.html?type=mandala" class="button">
+                Find out more
+              </a>
             </div>
           </div>
         </div>
-        <div class="links light-links center-link">
-          <h3 class="light">Find out more</h3>
-          <a href="pages/our work/our-work.html"
-            ><i class="fa-solid fa-arrow-right"></i
-          ></a>
-        </div>
       </section>
 
-      <!-- our design section  -->
-
+      <!-- new our design section  -->
       <section id="our-design">
         <h1 class="heading center">Our Design</h1>
         <p class="description center">
@@ -205,179 +313,202 @@
           moment we help create.
         </p>
 
-        <div class="img-gallery">
-          <div class="img">
-            <img src="./images/mehandi/1.jpg" alt="" />
-          </div>
-          <div class="img">
-            <img src="./images/mehandi/2.jpg" alt="" />
-          </div>
-          <div class="img">
-            <img src="./images/mehandi/3.jpg" alt="" />
-          </div>
-          <div class="img">
-            <img src="./images/mehandi/4.jpg" alt="" />
-          </div>
-        </div>
-        <div class="links center-link">
-          <h3>Find out more</h3>
-          <a href="./pages/gallery/gallery.html"
-            ><i class="fa-solid fa-arrow-right"></i
-          ></a>
+        <ul class="mehndi-gallery">
+          <li>
+            <a href="">
+              <figure>
+                <img
+                  src="./images/mehandi/1.jpg"
+                  alt="Elegant bridal mehndi design"
+                />
+                <figcaption>Elegant Bridal Patterns</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img
+                  src="./images/mehandi/2.jpg"
+                  alt="Festive mehndi with floral motifs"
+                />
+                <figcaption>Festive Floral Motifs</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img
+                  src="./images/mehandi/3.jpg"
+                  alt="Intricate traditional mehndi design"
+                />
+                <figcaption>Traditional Intricacy</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img
+                  src="./images/mehandi/4.jpg"
+                  alt="Modern fusion mehndi style"
+                />
+                <figcaption>Modern Fusion Styles</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+        <div class="center-btn center">
+          <a href="pages/gallery/gallery.html">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">View More design</span>
+            </button>
+          </a>
         </div>
       </section>
 
-      <section class="achievments">
-        <img
-          src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVubmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
-          alt=""
-          class="left"
-        />
-        <!-- <div class="right">
-          <h1>Solutions for you.</h1>
-          <p>We have every type of designs that will satisfy our customers</p>
-          <h3 id="customer-count">600</h3>
-          <p>Satisfied Customers</p>
-        </div> -->
-
-        <div class="right">
-          <h1>Elegant Mehndi Solutions Just for You</h1>
-          <p>
-            From traditional bridal mehndi to trendy contemporary patterns, we
-            offer a wide range of designs tailored to every occasion.
-          </p>
-
-          <ul>
-            <li>✓ 1500+ Happy Customers</li>
-            <li>✓ Bridal & Engagement Mehndi</li>
-            <li>✓ Intricate Arabic & Indo-Western Designs</li>
-            <li>✓ Natural Herbal Mehndi Used</li>
-            <li>✓ Home Service Available</li>
-            <li>✓ Professional Team with 10+ Years Experience</li>
-          </ul>
-
-          <h3 id="customer-count">1500+</h3>
-          <p>Satisfied Customers & Growing</p>
-        </div>
-      </section>
-
-      <section class="contact">
-        <h1 class="heading center">Contact Us</h1>
-        <p class="description center">
-          Get in touch with Arun Mehandi Art – Professional Artists for
-          weddings, parties, and special occasions. Available 24/7 with 100%
-          colour guarantee.
+      <div class="b-achievement-section">
+        <!-- Title & Description -->
+        <h2 class="heading">Our Achievements</h2>
+        <p class="description">
+          From the heart of India, we bring you the finest Mehndi artistry. Our
+          journey is marked by creativity, tradition, and thousands of happy
+          customers who trusted us for their most special occasions.
         </p>
 
-        <div class="contact-container">
-          <div class="contact-info">
-            <div class="contact-card">
-              <i class="fa-solid fa-location-dot"></i>
-              <h3>Address</h3>
-              <p class="center">
-                Shop No. FB-26, Fusion Home, Near Ryan School, Greater Noida
+        <div class="b-grid-container">
+          <!-- Feedback Card -->
+          <div
+            class="b-card b-card-image b-large"
+            style="background-image: url('./images/team-3.JPG')"
+          >
+            <div class="b-overlay">
+              <p class="b-quote">
+                "Thanks to Arun, For this beautiful Mehndi design! It was
+                exactly what I wanted for my wedding. The color was perfect and
+                the design was so intricate. I received so many compliments!"
               </p>
-            </div>
-
-            <div class="contact-card">
-              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-              <h3>Email</h3>
-              <p class="center">arvindnayak974@gmail.com</p>
-            </div>
-
-            <div class="contact-card">
-              <div class="icon"><i class="fa-solid fa-phone"></i></div>
-              <h3>Call Us</h3>
-              <p class="center">
-                <span>+91 63970 12423</span><br />
-                <span>+91 78170 16959</span>
-              </p>
-            </div>
-
-            <div class="contact-card">
-              <h3>Connect with Us</h3>
-              <p class="center">
-                Follow us on social media for updates, offers, and latest mehndi
-                designs.
-              </p>
-              <ul class="social-links">
-                <li>
-                  <a
-                    href="https://instagram.com/arun_mehandi_noida"
-                    target="_blank"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://facebook.com/arun_mehandiartist"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://wa.me/916397012423" target="_blank"
-                    ><i class="fa-brands fa-whatsapp"></i
-                  ></a>
-                </li>
-              </ul>
+              <p class="b-author">– Cynthia Morgan</p>
             </div>
           </div>
 
-          <!-- Google Map (You can update location if needed) -->
+          <!-- Stat: Happy Customers -->
+          <div class="b-card b-card-text b-orange">
+            <p class="b-small-heading">Till now</p>
+            <h1>10K+</h1>
+            <p>Happy customers across India</p>
+          </div>
+
+          <!-- Mehndi Design Count -->
+          <div class="b-card b-card-text b-blue">
+            <p class="b-small-heading">Mehndi Designs</p>
+            <h1>100+</h1>
+            <p>Unique & intricate designs created</p>
+          </div>
+
+          <!-- Noida Mehndi Review -->
+          <div class="b-card b-card-text b-yellow">
+            <p class="b-small-heading">Customer Review (Noida)</p>
+            <p class="b-quote">
+              "The Mehndi design was absolutely beautiful! The detailing and
+              artistry were beyond my expectations."
+            </p>
+            <p class="b-author">– Priya Sharma, Noida</p>
+          </div>
+
+          <!-- Extra Stat Card -->
+          <div class="b-card b-card-text b-mehandi">
+            <p class="b-small-heading">Events Served</p>
+            <h1>500+</h1>
+            <p>Weddings, festivals, and cultural events across India</p>
+          </div>
+
+          <div class="b-card b-card-text b-green">
+            <p class="b-small-heading">Customer Review (Noida)</p>
+            <p class="b-quote">
+              "The Mehndi design was absolutely beautiful! The detailing and
+              artistry were beyond my expectations."
+            </p>
+            <p class="b-author">– Priya Sharma, Noida</p>
+          </div>
+
+          <div class="b-card b-card-text b-red">
+            <p class="b-small-heading">Customer Review (Noida)</p>
+            <p class="b-quote">
+              "The Mehndi design was absolutely beautiful! The detailing and
+              artistry were beyond my expectations."
+            </p>
+            <p class="b-author">– Priya Sharma, Noida</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-header">
+          <div class="contact-text">
+            <h1 class="heading">Get In Touch</h1>
+            <p class="description">
+              Get in touch with Arun Mehandi Art – Professional Artists for
+              weddings, parties, and special occasions. Available 24/7 with 100%
+              colour guarantee.
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <a
+                  href="https://instagram.com/arun_mehandi_noida"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/arun_mehandiartist"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://wa.me/916397012423" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Our Address</span>
+              Shop No. FB-26, Fusion Home, Near Ryan School, Greater Noida
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <span>Our Contact Info</span>
+              +91 63970 12423<br />
+              +91 78170 16959
+              <br />
+              arvindnayak974@gmail.com
+            </div>
+          </div>
+        </div>
+
+        <div class="map-container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3731.665111!2d77.498712!3d28.474389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1689001297233!5m2!1sen!2sin"
-            width="600"
-            height="450"
+            allowfullscreen=""
+            loading="lazy"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          >
+          </iframe>
         </div>
-      </section>
-
-      <section class="testmonials">
-        <h1 class="heading center">People love's our Art</h1>
-
-        <div class="testmonials-container">
-          <div class="feed-card">
-            <p class="feed">
-              I booked Arun Mehandi Art for my wedding and the designs were
-              absolutely stunning! The color came out so beautifully and lasted
-              for days. Highly recommended!
-            </p>
-            <h3 class="cust-name">Sneha Sharma, Noida</h3>
-          </div>
-
-          <div class="feed-card">
-            <p class="feed">
-              Truly professional artists! They arrived on time for my sister’s
-              engagement and delivered exactly what we had in mind. Super happy
-              with their work!
-            </p>
-            <h3 class="cust-name">Aarti Mehra, Greater Noida</h3>
-          </div>
-
-          <div class="feed-card">
-            <p class="feed">
-              Great experience! Their mehndi designs are very creative and
-              elegant. Also loved that they use herbal mehndi – no irritation at
-              all. Would book again!
-            </p>
-            <h3 class="cust-name">Priya Desai, Ghaziabad</h3>
-          </div>
-
-          <div class="feed-card">
-            <p class="feed">
-              Excellent service and beautiful designs. We called them for a
-              family function and everyone was impressed. Very polite and
-              professional team.
-            </p>
-            <h3 class="cust-name">Neha Kulkarni, Delhi</h3>
-          </div>
-        </div>
-      </section>
+      </div>
 
       <section class="footer">
         <a href="#">
@@ -440,7 +571,7 @@
         </div>
 
         <p
-          class="center light"
+          class="center light copyright"
           style="background-color: black; padding: 10px 0"
         >
           &copy; 2025 Arun Mehandi Art. All rights reserved.
