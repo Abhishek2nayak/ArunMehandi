@@ -6,6 +6,16 @@
   flex-wrap: wrap;
   margin-bottom: 200px;
 }
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 3px;
+  display: none;
+}
+.error-input {
+  border-color: red !important;
+}
+
 .contact-us .contact-left {
   width: 40%;
   height: 100%;
