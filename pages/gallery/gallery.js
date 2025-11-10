@@ -2,73 +2,96 @@ const galleryData = {
   bridal: {
     title: "Bridal Mehndi Designs",
     description:
-      "Exquisite bridal Mehndi combining traditional motifs with modern patterns for an unforgettable wedding look.",
+      "Luxurious bridal mehndi with intricate details and 100% organic henna — perfect for Punjabi weddings and royal bridal looks.",
     blog: `
-        <p>Bridal Mehndi is more than just an art form—it’s a tradition woven deeply into the cultural fabric of weddings. Every swirl, flower, and pattern carries a touch of heritage that makes the bride’s look complete.</p>
-        <p>At Arun Mehandi Art, we specialize in creating personalized designs that match each bride’s unique style. Whether you prefer detailed traditional motifs or a fusion of modern trends, our artists ensure that your Mehndi is a reflection of your personality.</p>
-        <p>We use only natural, high-quality henna for a rich, long-lasting stain that’s gentle on the skin. The application process is not just about the design—it’s an experience filled with joy, laughter, and anticipation for the big day.</p>
-        <p>From the first stroke to the final reveal, our goal is to make your Mehndi ceremony a memorable chapter in your wedding story.</p>
-      `,
+      <p><strong>Bridal Mehndi</strong> at <strong>Chintu | The Henna Vibe</strong> is crafted to make your big day unforgettable. Our designs blend <em>traditional Indian motifs</em> with <em>modern bridal trends</em>, reflecting love, prosperity, and elegance.</p>
+      <p>We use <strong>100% natural and chemical-free henna</strong> to give a deep, long-lasting stain while keeping your skin safe. From full-hand intricate patterns to minimal bridal elegance, our expert artists ensure perfection in every stroke.</p>
+      <p>Whether you're planning a grand Punjabi wedding or an intimate ceremony, our <strong>bridal mehndi designs in Phagwara</strong> are customized to your outfit, style, and story.</p>
+    `,
   },
+
   arabic: {
     title: "Arabic Mehndi Designs",
     description:
-      "Flowing, bold patterns with floral elegance, perfect for festive and casual celebrations.",
+      "Bold, flowing Arabic mehndi with floral and leafy patterns — perfect for festivals, parties, and quick elegant looks.",
     blog: `
-        <p>Arabic Mehndi is known for its bold floral patterns, flowing lines, and elegant curves that create a sophisticated look. Unlike traditional dense designs, Arabic styles leave spaces between elements, adding a sense of lightness and charm.</p>
-        <p>These designs are ideal for festivals, casual gatherings, or when you want something beautiful yet less time-consuming. Our Arabic Mehndi work combines traditional artistry with modern flair, ensuring each design feels fresh and unique.</p>
-        <p>The application is quicker than bridal Mehndi but equally impactful, making it a favorite for Eid, Diwali, or even engagement functions. We use high-quality henna that stains beautifully and lasts for days.</p>
-        <p>Perfect for those who want elegance without overwhelming detail, Arabic Mehndi is timeless in its appeal.</p>
-      `,
+      <p><strong>Arabic Mehndi</strong> is known for its bold outlines, flowing vines, and floral charm. At <strong>Chintu | The Henna Vibe</strong>, our Arabic designs combine <em>traditional Gulf-inspired artistry</em> with <em>modern aesthetics</em> for a stunning look.</p>
+      <p>Perfect for <strong>Karwa Chauth, Eid, Diwali, and wedding guests</strong>, these designs are lightweight yet impactful. Our natural henna ensures a rich stain that enhances every celebration.</p>
+      <p>Get the most trending <strong>Arabic mehndi in Punjab</strong> and elevate your festive style effortlessly.</p>
+    `,
   },
-  portrait: {
-    title: "Portrait Mehndi Designs",
+
+  engagement: {
+    title: "Engagement Mehndi Designs",
     description:
-      "Custom portrait Mehndi capturing faces, figures, and moments in intricate henna detail.",
+      "Elegant engagement mehndi symbolizing love and togetherness — ideal for pre-wedding celebrations.",
     blog: `
-        <p>Portrait Mehndi is a modern and highly artistic take on traditional henna, featuring realistic depictions of faces, couples, or special moments. This style transforms your Mehndi into a truly personal and unique masterpiece.</p>
-        <p>At Arun Mehandi Art, we specialize in crafting portraits that resemble loved ones or symbolize meaningful moments in your life. From a bride and groom illustration to iconic cultural figures, the possibilities are endless.</p>
-        <p>Creating a portrait in Mehndi requires exceptional precision and patience, and our artists excel in both. The result is not just decoration—it’s wearable art that tells a story.</p>
-        <p>Perfect for weddings, anniversaries, or special gifts, portrait Mehndi adds a one-of-a-kind touch to your celebration.</p>
-      `,
+      <p>Your engagement day marks the beginning of a beautiful journey — and <strong>Chintu | The Henna Vibe</strong> makes it even more special with graceful <strong>engagement mehndi designs</strong>.</p>
+      <p>We blend romantic motifs like hearts, rings, and initials with floral patterns to capture your love story. Each design is elegant, balanced, and perfect for photographs.</p>
+      <p>Our artists in <strong>Phagwara</strong> bring creativity and precision to ensure your mehndi complements your engagement outfit and theme beautifully.</p>
+    `,
   },
+
   babyshower: {
     title: "Baby Shower Mehndi Designs",
     description:
-      "Celebratory Mehndi for moms-to-be, filled with joy, blessings, and symbolic designs.",
+      "Adorable mehndi art for moms-to-be — crafted with care using 100% organic henna for safe, joyful celebrations.",
     blog: `
-        <p>Baby shower Mehndi celebrates the joy of motherhood with designs that symbolize love, protection, and blessings for the baby. These designs often feature motifs like baby cradles, tiny footprints, and floral patterns representing new life.</p>
-        <p>Our team ensures the designs are gentle, safe, and meaningful, using natural henna that’s safe for expecting mothers. The application is relaxing and can be a beautiful bonding moment with family and friends.</p>
-        <p>Whether it’s a small gathering or a grand celebration, baby shower Mehndi adds warmth and elegance to the occasion, making it even more memorable.</p>
-        <p>We tailor each design to reflect the mom-to-be’s journey, ensuring it’s as special as the moment itself.</p>
-      `,
+      <p>Celebrate motherhood with <strong>Baby Shower Mehndi</strong> by <strong>Chintu | The Henna Vibe</strong>. Our artists create cute and symbolic designs like <em>baby footprints, cradles, and flowers</em> to mark this special milestone.</p>
+      <p>We use <strong>chemical-free organic mehndi</strong> safe for expecting mothers. The soothing aroma and rich stain add warmth to the celebration.</p>
+      <p>Whether it’s a cozy family event or a grand function, our <strong>baby shower mehndi in Phagwara</strong> adds love and positivity to your special day.</p>
+    `,
   },
-  figure: {
-    title: "Figure Mehndi Designs",
+
+  karwachauth: {
+    title: "Karwa Chauth Mehndi Designs",
     description:
-      "Artistic Mehndi featuring human and animal figures for storytelling and cultural depth.",
+      "Traditional Karwa Chauth mehndi with moon, sieve, and couple motifs — symbolizing love and devotion.",
     blog: `
-        <p>Figure Mehndi incorporates artistic depictions of people, animals, and cultural icons, turning henna into a storytelling medium. Each figure holds meaning, whether it’s a traditional bride, a peacock symbolizing beauty, or a deity representing blessings.</p>
-        <p>Our figure designs are drawn with intricate detail, ensuring every feature is expressive and captivating. This style is perfect for cultural events, theme parties, or anyone wanting something bold and symbolic.</p>
-        <p>We blend traditional figure motifs with modern creativity, ensuring your Mehndi is as unique as your story.</p>
-        <p>Every line, curve, and figure is placed with intention, creating a design that’s not just beautiful but deeply meaningful.</p>
-      `,
+      <p><strong>Karwa Chauth Mehndi</strong> is all about tradition, love, and devotion. At <strong>Chintu | The Henna Vibe</strong>, we design stunning henna patterns featuring <em>moon motifs, couples, and intricate vines</em> that capture the spirit of the festival.</p>
+      <p>Our expert artists specialize in <strong>Karwa Chauth mehndi in Punjab</strong> that lasts long and looks breathtaking under the moonlight.</p>
+      <p>Celebrate this festival of love with mehndi that speaks your emotions through elegant artistry.</p>
+    `,
   },
+
+  flower: {
+    title: "Floral Mehndi Designs",
+    description:
+      "Elegant floral and mandala-inspired mehndi — simple, stylish, and perfect for any occasion.",
+    blog: `
+      <p><strong>Floral Mehndi</strong> designs are timeless and versatile. At <strong>Chintu | The Henna Vibe</strong>, we craft beautiful <em>flower and mandala-inspired mehndi</em> that radiates grace and positivity.</p>
+      <p>These designs are ideal for <strong>parties, casual events, or pre-wedding ceremonies</strong>. The patterns are light, feminine, and beautifully flow with your hands’ natural curves.</p>
+      <p>Get your <strong>floral mehndi design in Phagwara</strong> with rich organic color and modern artistic touches.</p>
+    `,
+  },
+
+  indian: {
+    title: "Indian Mehndi Designs",
+    description:
+      "Traditional Indian mehndi rich with peacocks, paisleys, and cultural motifs — perfect for weddings and festivals.",
+    blog: `
+      <p><strong>Indian Mehndi</strong> is known for its intricate details and cultural symbolism. At <strong>Chintu | The Henna Vibe</strong>, we bring the essence of Indian traditions to life through beautifully detailed designs featuring <em>bride-groom motifs, paisleys, mandalas, and peacocks</em>.</p>
+      <p>Our team has over <strong>12 years of experience</strong> in creating authentic <strong>Indian mehndi designs in Punjab</strong> using 100% natural henna for a rich, dark finish.</p>
+      <p>Perfect for weddings, religious functions, or festive celebrations — our Indian mehndi connects heritage with modern elegance.</p>
+    `,
+  },
+
   mandala: {
     title: "Mandala Mehndi Designs",
     description:
-      "Geometric and symmetrical designs symbolizing unity, eternity, and spiritual connection.",
+      "Circular, symmetrical mandala mehndi symbolizing beauty, balance, and spirituality — ideal for all occasions.",
     blog: `
-        <p>Mandala Mehndi is rooted in spirituality, featuring circular patterns that represent wholeness, unity, and eternity. These designs are perfect for meditation, festivals, or anyone who appreciates balanced, symmetrical art.</p>
-        <p>Our mandala work ranges from minimal single-circle designs to complex layered patterns covering the hands and arms. The symmetry and precision create a calming, mesmerizing effect.</p>
-        <p>Mandala Mehndi can be adapted for both casual wear and grand events, making it versatile and timeless. It pairs beautifully with other styles, including floral and geometric elements.</p>
-        <p>Whether for beauty, symbolism, or both, mandala designs carry an energy that’s truly special.</p>
-      `,
+      <p><strong>Mandala Mehndi</strong> is the heart of spiritual henna art. At <strong>Chintu | The Henna Vibe</strong>, our mandala patterns symbolize <em>wholeness, eternity, and harmony</em>.</p>
+      <p>From simple circular mandalas to complex layered masterpieces, our designs are perfect for <strong>Karwa Chauth, Diwali, engagements, or meditation ceremonies</strong>.</p>
+      <p>Experience the <strong>best mandala mehndi in Phagwara</strong>, handcrafted with precision and passion for timeless elegance.</p>
+    `,
   },
 };
 
+console.log("Gallery page loaded");
+
 const params = new URLSearchParams(window.location.search);
-const type = params.get("type");
+let type = params.get("type")  ?? "bridal";
 
 if (type && galleryData[type]) {
   document.getElementById("dynamic-gallery-info").style.display = "block";
@@ -77,4 +100,33 @@ if (type && galleryData[type]) {
   document.getElementById("gallery-description").textContent =
     galleryData[type].description;
   document.getElementById("gallery-blog").innerHTML = galleryData[type].blog;
+}
+
+const gallerySection = document.querySelector(".photo-gallery");
+gallerySection.innerHTML = ""; // Clear old images
+type = type === "flower" ? "mandala" :  type; // map flower to mandala4
+const index = type === "karwachauth" || type === "arabic" ? 4 : 6; // karwachauth has 5 images, others have 6
+for (let i = 1; i <= index; i++) {
+  const div = document.createElement("div");
+  const img = document.createElement("img");
+  const p = document.createElement("p");
+
+  // handle different file types if needed
+  const imageExtensions = [".png", ".PNG", ".jpg", ".jpeg", ".webp"];
+  let found = false;
+
+  console.log("Loading images for type:", type);
+  for (const ext of imageExtensions) {
+    const imagePath = `../../images/${type === "engagement" ? "engegment" : type}/${type}-${i}.PNG`;
+    img.src = imagePath;
+    img.alt = `${galleryData[type].title} - Design ${i}`;
+    found = true;
+    break;
+  }
+
+  p.textContent = i.toString().padStart(2, "0");
+
+  div.appendChild(img);
+  div.appendChild(p);
+  gallerySection.appendChild(div);
 }

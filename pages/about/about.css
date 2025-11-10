@@ -321,6 +321,11 @@
   gap: 30px;
 }
 
+.description  {
+  padding: 100px 0;
+  text-align: center;
+}
+
 /* Content Column */
 .content-column {
   flex: 1 1 50%;
@@ -516,3 +521,7 @@
   color: #000;
   text-transform: capitalize;
 }
+
+
+
+
