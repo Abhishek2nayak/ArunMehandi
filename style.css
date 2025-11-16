@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Carattere&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parisienne&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Carattere&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parisienne&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Carattere&family=Kaushan+Script&family=Parisienne&display=swap");
 * {
@@ -39,7 +38,18 @@
   --casual-font: "Cinzel Decorative", cursive;
   --light-font: "Julius Sans One", sans-serif;
   --main-font: "Rubik", sans-serif;
-  --lato-font : "Lato", sans-serif;
+  --lato-font: "Lato", sans-serif;
+}
+
+#loader {
+  position: fixed;
+  inset: 0;
+  background: #fff;
+  /* or transparent if you want */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
 }
 
 li {
@@ -436,7 +446,6 @@ body {
   font-family: var(--light-font);
   font-weight: normal;
   color: var(--bg);
- 
 }
 
 .service-card-content {
@@ -447,8 +456,6 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1;
-
- 
 }
 
 .service-card p,
@@ -1140,6 +1147,14 @@ button:hover .button-text {
     /* width: 100%; */
   }
 
+  .card-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .card-box p {
+    font-size: 12px;
+  }
+
   .footer-company-details {
     display: flex;
     flex-direction: column;
@@ -1214,7 +1229,7 @@ button:hover .button-text {
   font-size: 25px;
   color: #c1bdbd;
   padding-top: 20px;
-line-height: 1;
+  line-height: 1;
   font-family: "Arizonia", cursive;
   font-weight: 400;
   font-style: normal;

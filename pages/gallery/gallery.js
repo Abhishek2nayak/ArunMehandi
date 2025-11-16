@@ -117,7 +117,7 @@ for (let i = 1; i <= index; i++) {
 
   console.log("Loading images for type:", type);
   for (const ext of imageExtensions) {
-    const imagePath = `../../images/${type === "engagement" ? "engegment" : type}/${type}-${i}.PNG`;
+    const imagePath = `../../images/${type === "engagement" ? "engegment" : type}/${type}-${i}.jpg`;
     img.src = imagePath;
     img.alt = `${galleryData[type].title} - Design ${i}`;
     found = true;

@@ -59,6 +59,15 @@
 
   <body>
     <div class="main">
+      <div id="loader">
+        <dotlottie-wc
+          src="https://lottie.host/9b52072b-f144-4183-9717-59e0e46e6bf8/ak4G4HgBt4.lottie"
+          style="width: 300px; height: 300px"
+          autoplay
+          loop
+        ></dotlottie-wc>
+      </div>
+
       <!-- From Uiverse.io by Giannasaurus -->
       <button
         class="b-button"
@@ -193,7 +202,10 @@
           </div>
 
           <div id="img-1">
-            <video src="images/team/IMG_6638.MOV" autoplay muted loop></video>
+            <video autoplay muted loop playsinline>
+              <source src="images/team/IMG_6638.webm" type="video/webm" />
+              <source src="images/team/IMG_6638.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </section>
@@ -221,7 +233,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=bridal'"
           >
             <img
-              src="./images/bridal/bridal-1.png"
+              src="./images/bridal/bridal-1.jpg"
               alt="Bridal Mehndi Design - Full hand intricate henna art"
             />
             <div class="service-card-content">
@@ -242,7 +254,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=babyshower'"
           >
             <img
-              src="images/babyshower/babyshower-1.PNG"
+              src="images/babyshower/babyshower-1.jpg"
               alt="Baby Shower Mehndi - Cute henna art for moms-to-be"
             />
             <div class="service-card-content">
@@ -266,7 +278,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=engagement'"
           >
             <img
-              src="images/engegment/engagement-1.PNG"
+              src="images/engegment/engagement-1.jpg"
               alt="Engagement Mehndi Design - Elegant henna for engagement ceremonies"
             />
             <div class="service-card-content">
@@ -290,7 +302,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=karwachauth'"
           >
             <img
-              src="images/karwachauth/karwachauth-1.PNG"
+              src="images/karwachauth/karwachauth-1.jpg"
               alt="Karwa Chauth Mehndi Design - Traditional henna for Karwa Chauth"
             />
             <div class="service-card-content">
@@ -314,7 +326,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=flower'"
           >
             <img
-              src="images/mandala/mandala-1.PNG"
+              src="images/mandala/mandala-1.jpg"
               alt="Flower Mehndi Design - Floral henna art"
             />
             <div class="service-card-content">
@@ -335,7 +347,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=arabic'"
           >
             <img
-              src="images/arabic/arabic-1.PNG"
+              src="images/arabic/arabic-1.jpg"
               alt="Arabic Mehndi Design - Elegant floral henna pattern"
             />
             <div class="service-card-content">
@@ -356,7 +368,7 @@
             onclick="location.href='pages/gallery/gallery.html?type=indian'"
           >
             <img
-              src="images/indian-mehandi/indian-mehandi-1.PNG"
+              src="images/indian-mehandi/indian-mehandi-1.jpg"
               alt="Indian Mehndi Design - Traditional henna art"
             />
             <div class="service-card-content">
@@ -455,7 +467,7 @@
             <a href="">
               <figure>
                 <img
-                  src="./images/bridal/bridal-6.PNG"
+                  src="./images/bridal/bridal-6.jpg"
                   alt="Bridal Mehndi Design in Phagwara"
                 />
                 <figcaption>Royal Bridal Mehndi</figcaption>
@@ -466,7 +478,7 @@
             <a href="">
               <figure>
                 <img
-                  src="./images/arabic/arabic-4.PNG"
+                  src="./images/arabic/arabic-4.jpg"
                   alt="Arabic Mehndi Design Punjab"
                 />
                 <figcaption>Arabic Beauty</figcaption>
@@ -477,7 +489,7 @@
             <a href="">
               <figure>
                 <img
-                  src="./images/mandala/mandala-3.PNG"
+                  src="./images/mandala/mandala-3.jpg"
                   alt="Mandala Mehndi Design for Bride"
                 />
                 <figcaption>Mandala Elegance</figcaption>
@@ -488,7 +500,7 @@
             <a href="">
               <figure>
                 <img
-                  src="./images/babyshower/babyshower-4.PNG"
+                  src="./images/babyshower/babyshower-4.jpg"
                   alt="Baby Shower and Festive Mehndi"
                 />
                 <figcaption>Festive & Baby Shower Art</figcaption>
@@ -1039,6 +1051,11 @@
       integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+      type="module"
     ></script>
     <script type="module" src="animation.js"></script>
     <script type="module" src="utils.js"></script>
