@@ -52,7 +52,7 @@ function csendMessage() {
   if (!isValid) return; // Stop if validation fails
 
   // Send WhatsApp message
-  let whatsappNumber = "918928477113"; // Your WhatsApp number
+  let whatsappNumber = "916239538117"; // Your WhatsApp number
   let text =
     `*Contact Form Submission*%0A` +
     `Name: ${encodeURIComponent(name)}%0A` +
