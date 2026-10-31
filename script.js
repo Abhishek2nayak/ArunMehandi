@@ -15,23 +15,34 @@ const burger = document.querySelector('.hamburger input[type="checkbox"]');
 const nav = document.querySelector("#main-nav");
 
 const loader = document.getElementById("loader");
-const video = document.querySelector("#img-1 video"); // your main hero video
+const video = document.querySelector("#img-1 video");
 
-window.addEventListener("load", () => {
-  // If video already loaded
-  if (video.readyState >= 3) {
-
-    loader.style.display = "none";
-  } else {
-    // Wait for video to load
-    video.addEventListener("loadeddata", () => {
+if (video && loader) {
+  window.addEventListener("load", () => {
+    if (video.readyState >= 3) {
       loader.style.display = "none";
-    });
-  }
-});
+    } else {
+      video.addEventListener("loadeddata", () => {
+        loader.style.display = "none";
+      });
+    }
+  });
+}
 
-burger.addEventListener("change", function () {
-  nav.classList.toggle("is-open", this.checked);
-});
+if (burger && nav) {
+  burger.addEventListener("change", function () {
+    nav.classList.toggle("is-open", this.checked);
+  });
+}
 
 redirectToAnotherPage(images, "pages/gallery/gallery.html");
+
+// FAQ toggle
+document.querySelectorAll(".faq-question").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains("open");
+    document.querySelectorAll(".faq-item").forEach((i) => i.classList.remove("open"));
+    if (!isOpen) item.classList.add("open");
+  });
+});
